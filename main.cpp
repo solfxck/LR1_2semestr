@@ -4,7 +4,7 @@ using namespace std;
 
 void calculTrapezoid(double sup, double sdown, double sleft, double sright){
     double perimetrT = sup + sdown + sleft + sright;
-    double midlineT = (sup + sdown)/2;
+    double midlineT = (sup + sdown)/2; 
 
     double sr2 = sright * sright; // sright^2
     double sl2 = sleft * sleft; //sideleft^2
@@ -25,5 +25,5 @@ void calculTrapezoid(double sup, double sdown, double sleft, double sright){
 }
 
 int main(){
-    calculTrapezoid(14.0, 18.0, 6.0, 8.0);
+    calculTrapezoid(14.0, 20.0, 6.0, 8.0);
 }
