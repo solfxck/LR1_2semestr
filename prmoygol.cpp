@@ -17,5 +17,5 @@ void calculRectangle(double side1, double side2) {
 }
 
 int main(){
-    calculRectangle(5, -1);
+    calculRectangle(5, 6);
 }
